@@ -1,0 +1,95 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <style>
+            /*Add custom styles for the main container*/
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+            }
+
+            /*
+            Farrah Nurmalia Sari (farrahnurmalia.sari@studenti.unipd.it)
+            Reference: @NanouuSymeon on twitter
+            */
+
+            .profile-farrah {
+                text-align: center;
+                padding: 50px;
+                background-color: #F5DADF;
+                border-radius: 30px ;
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            }
+
+            .profile-info img {
+                width: 200px;
+                height: 200px;
+                border: 5px solid #B37F89; /*Add a border*/
+                border-radius: 50%; /*Make it round to 50%, 0% is square*/
+                object-fit: cover; /*Maintain aspect ratio and cover the square*/
+            }
+
+            .profile-info h2 {
+                margin: 10px 0;
+                font-size: 24px;
+            }
+
+            .profile-info p {
+                margin: 5px 0;
+                font-size: 18px;
+            }
+
+            .profile-info p a {
+                text-decoration: none; /* Remove default underline */
+                border-bottom: 1px solid transparent; /* Add an initially transparent underline */
+                transition: border-color 0.3s ease-in-out; /* Smooth transition for the underline color */
+            }
+
+            .profile-info p a:hover {
+                border-color: #B37F89; /* Change the border color on hover to create an underline effect */
+                border-width: 2px; /* Increase the border width to make it bold on hover */
+            }
+
+
+            /*Add custom styles for social media icons*/
+            .socialmedia-links {
+                margin-top: 20px;
+                text-align: center;
+            }
+
+            .socialmedia-links a {
+                display: inline-block;
+                margin: 10 20px;
+                color: #333;
+                font-size: 24px;
+                transition: color 0.3s ease-in-out;
+            }
+
+            .socialmedia-links a:hover {
+                color: #B37F89;
+            }
+        </style>
+        <title>Profile Farrah</title>
+    </head>
+    <body>
+     <div class="profile-farrah">
+        <div class="profile-info">
+            <img src="https://github.com/farrahnurmalia/profile-farrah/blob/main/photo_6102645329703844358_x.jpg?raw=true" alt="Profile Picture">
+            <h2>Farrah Nurmalia Sari</h2>
+            <p><a href="https://it.wikipedia.org/wiki/Universit%C3%A0_degli_Studi_di_Padova" target="_blank">Università degli Studi di Padova</a></p>
+        </div>
+        <div class="socialmedia-links">
+            <a href="https://www.facebook.com/farrah.nurmalia/"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/f_a_r_r_a_h_"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/farrahnurmalia/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/farrahnurmalia"><i class="fab fa-github"></i></a>
+        </div>
+     </div>
+</html>
